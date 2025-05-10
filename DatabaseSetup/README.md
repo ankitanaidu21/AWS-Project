@@ -14,3 +14,7 @@ Connect RDS with Web App Server
 Access RDS from EC2
 RDS Management Features
 Connect to RDS Aurora
+
+Refer to:
+
+database.md for detailed step-by-step instructions.
