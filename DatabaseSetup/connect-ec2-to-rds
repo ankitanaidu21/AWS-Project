@@ -1,0 +1,17 @@
+Connect EC2 to RDS Aurora
+
+Goal: To make an RDS connection through MySQL CLI, which is used for general database management/operation.
+
+	1. Launch an EC2 instance using the custom AMI(created in compute setup) in the public subnet of your VPC. Make sure it has a public IP.
+	2. Update the RDS Aurora security group to allow connections from the EC2 instance (use the EC2 security group as a source).
+	3. SSH into the EC2 instance using your key.
+	4. Connect to the RDS Aurora using the MySQL client (already installed).Find commands in commands.md file.
+	5. Run MySQL query:
+		show databases;
+		use immersionday;
+		show tables;
+		select * from address;
+	6. You should see sample data from the address table.
+
+
+
