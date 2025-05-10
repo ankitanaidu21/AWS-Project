@@ -2,7 +2,7 @@ Day 2 : Compute Setup
 
 Part 1: Launch Web Server with User Data
 
-		• Launch EC2 instance in a public subnet with HTTP and SSH access using user data.
+		• Launch EC2 instance in a public subnet with HTTP and SSH access using user data(userdata.md).
 		• Verify setup by accessing the instance via its Public DNS or IPv4 address in a browser.
 		• Access instance using SSH or Session Manager (create IAM role for Systems Manager).
 
